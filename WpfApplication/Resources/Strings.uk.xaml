@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <sys:String x:Key="TotalBalance" xmlns:sys="clr-namespace:System;assembly=mscorlib">Загальний баланс</sys:String>
+    <sys:String x:Key="Income" xmlns:sys="clr-namespace:System;assembly=mscorlib">Доходи:</sys:String>
+    <sys:String x:Key="Expenses" xmlns:sys="clr-namespace:System;assembly=mscorlib">Витрати:</sys:String>
+    <sys:String x:Key="AddTransaction" xmlns:sys="clr-namespace:System;assembly=mscorlib">Додати транзакцію</sys:String>
+    <sys:String x:Key="ChangeLanguage" xmlns:sys="clr-namespace:System;assembly=mscorlib">Змінити мову</sys:String>
+    <sys:String x:Key="Category" xmlns:sys="clr-namespace:System;assembly=mscorlib">Категорія</sys:String>
+    <sys:String x:Key="Amount" xmlns:sys="clr-namespace:System;assembly=mscorlib">Сума</sys:String>
+    <sys:String x:Key="Type" xmlns:sys="clr-namespace:System;assembly=mscorlib">Тип</sys:String>
+
+    <!-- Transaction Window Strings -->
+    <sys:String x:Key="TransactionTitle" xmlns:sys="clr-namespace:System;assembly=mscorlib">Транзакція</sys:String>
+    <sys:String x:Key="CategoryHint" xmlns:sys="clr-namespace:System;assembly=mscorlib">Категорія</sys:String>
+    <sys:String x:Key="AmountHint" xmlns:sys="clr-namespace:System;assembly=mscorlib">Сума</sys:String>
+    <sys:String x:Key="TransactionTypeHint" xmlns:sys="clr-namespace:System;assembly=mscorlib">Тип транзакції</sys:String>
+    <sys:String x:Key="DateHint" xmlns:sys="clr-namespace:System;assembly=mscorlib">Дата</sys:String>
+    <sys:String x:Key="DescriptionHint" xmlns:sys="clr-namespace:System;assembly=mscorlib">Опис</sys:String>
+    <sys:String x:Key="CancelButton" xmlns:sys="clr-namespace:System;assembly=mscorlib">Скасувати</sys:String>
+    <sys:String x:Key="SaveButton" xmlns:sys="clr-namespace:System;assembly=mscorlib">Зберегти</sys:String>
+</ResourceDictionary>
