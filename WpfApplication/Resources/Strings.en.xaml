@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <sys:String x:Key="TotalBalance" xmlns:sys="clr-namespace:System;assembly=mscorlib">Total Balance</sys:String>
+    <sys:String x:Key="Income" xmlns:sys="clr-namespace:System;assembly=mscorlib">Income:</sys:String>
+    <sys:String x:Key="Expenses" xmlns:sys="clr-namespace:System;assembly=mscorlib">Expenses:</sys:String>
+    <sys:String x:Key="AddTransaction" xmlns:sys="clr-namespace:System;assembly=mscorlib">Add Transaction</sys:String>
+    <sys:String x:Key="ChangeLanguage" xmlns:sys="clr-namespace:System;assembly=mscorlib">Change Language</sys:String>
+    <sys:String x:Key="Category" xmlns:sys="clr-namespace:System;assembly=mscorlib">Category</sys:String>
+    <sys:String x:Key="Amount" xmlns:sys="clr-namespace:System;assembly=mscorlib">Amount</sys:String>
+    <sys:String x:Key="Type" xmlns:sys="clr-namespace:System;assembly=mscorlib">Type</sys:String>
+
+    <!-- Transaction Window Strings -->
+    <sys:String x:Key="TransactionTitle" xmlns:sys="clr-namespace:System;assembly=mscorlib">Transaction</sys:String>
+    <sys:String x:Key="CategoryHint" xmlns:sys="clr-namespace:System;assembly=mscorlib">Category</sys:String>
+    <sys:String x:Key="AmountHint" xmlns:sys="clr-namespace:System;assembly=mscorlib">Amount</sys:String>
+    <sys:String x:Key="TransactionTypeHint" xmlns:sys="clr-namespace:System;assembly=mscorlib">Transaction Type</sys:String>
+    <sys:String x:Key="DateHint" xmlns:sys="clr-namespace:System;assembly=mscorlib">Date</sys:String>
+    <sys:String x:Key="DescriptionHint" xmlns:sys="clr-namespace:System;assembly=mscorlib">Description</sys:String>
+    <sys:String x:Key="CancelButton" xmlns:sys="clr-namespace:System;assembly=mscorlib">Cancel</sys:String>
+    <sys:String x:Key="SaveButton" xmlns:sys="clr-namespace:System;assembly=mscorlib">Save</sys:String>
+</ResourceDictionary>
