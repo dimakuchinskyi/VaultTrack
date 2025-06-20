@@ -1,0 +1,32 @@
+<Window x:Class="VaultTrack.Views.SuccessDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Успіх" Height="160" Width="400"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Loaded="Window_Loaded">
+    <Window.Resources>
+        <Storyboard x:Key="FadeInStoryboard">
+            <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.25"/>
+        </Storyboard>
+        <Storyboard x:Key="FadeOutStoryboard">
+            <DoubleAnimation Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="0:0:0.2"/>
+        </Storyboard>
+    </Window.Resources>
+    <Border Background="#232946" CornerRadius="16" Padding="24" Effect="{DynamicResource DropShadowEffect}">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+            <TextBlock x:Name="MessageText"
+                       Text="Успішно!"
+                       Foreground="#F4F4F6"
+                       FontSize="16"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       Margin="0,0,0,20"/>
+            <Button Content="OK" Width="80" Height="32" HorizontalAlignment="Center"
+                    Style="{StaticResource MaterialDesignRaisedButton}"
+                    Click="Ok_Click"/>
+        </StackPanel>
+    </Border>
+</Window> 
